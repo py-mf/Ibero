@@ -1,0 +1,12 @@
+"""DISTANCIA DE MANHATTAN"""
+
+import numpy as np #importing numpy library
+
+x = [2, 3, 5, 2, 4] #values for x
+y = [10, 15, 20, 30, 12] #values for y
+
+dist = np.sum([abs(x-y) for (x,y) in zip(x,y)]) 
+#abs -> calcute the absolute value for diferente between x-value and y-value
+#zip -> compresses the lists forming pairs according to the position of each index
+    
+print(dist) #shows the results
