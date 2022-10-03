@@ -1,0 +1,16 @@
+class Ciudad():
+    def __init__(self):
+        self.nombre = " "
+        self.calle = " "
+        
+    def getNombre(self):
+        return self._nombre
+    
+    def setNombre(self, n):
+        self._nombre = n
+        
+    def getCalle(self):
+        return self._calle
+    
+    def setCalle(self, m):
+        self._calle = m
