@@ -1,0 +1,9 @@
+from clase_manhattan import Ciudad:
+    
+a1 = Ciudad
+
+a1.setNombre("Manhattan")
+a1.setCalle("Calle W 72nd St")
+
+print(f'Ciudad: {a1.getNombre()}')
+print(f'Calle: {a1.getCalle()}')
